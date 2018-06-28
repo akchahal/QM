@@ -1,0 +1,68 @@
+<core:FragmentDefinition
+		xmlns="sap.m"
+		xmlns:unified="sap.ui.unified"
+		xmlns:mvc="sap.ui.core.mvc"
+		xmlns:core="sap.ui.core">
+		<MultiComboBox
+				selectionFinish="handleSelectionFinish"
+				width="230px"
+				placeholder="Search Component">
+			<items>
+				<core:Item key="CRM" text="CRM" />
+				<core:Item key="HANAPlatform" text="HANA Platform" />
+				<core:Item key="S4HANASALES" text="S4HANA Sales" />
+				<core:Item key="S4HANAPLMMAN" text="S4HANA PLM MAN" />
+				<core:Item key="SCM" text="SCM" />
+				<core:Item key="BR" text="BR Localization" />
+				<core:Item key="HCM" text="HCM"/>
+			</items>
+		</MultiComboBox>
+		<PlanningCalendar
+			id="PC1"
+			startDate="{path: '/startDate'}"
+			rows="{path: '/Category'}"
+			appointmentsVisualization="Filled"
+			appointmentSelect="handleAppointmentSelect"
+			showEmptyIntervalHeaders="false"
+			stickyHeader="true"
+			showWeekNumbers="true"
+			viewKey= "Hour"
+			nonWorkingDays="0"
+		
+			>
+			<toolbarContent>
+				<Title text="Title" titleStyle="H4"/>
+			</toolbarContent>
+			<rows>
+				<PlanningCalendarRow
+					icon="{pic}"
+					title="{name}"
+					text="{role}"
+					appointments="{path : 'appointments', templateShareable: 'true'}"
+					intervalHeaders="{path: 'headers', templateShareable: 'true'}">
+					<appointments>
+						<unified:CalendarAppointment
+							startDate="{start}"
+							endDate="{end}"
+							icon="{pic}"
+							title="{title} / {Region}"
+							text="{info}"
+							type="{type}"
+							tentative="{tentative}">
+						</unified:CalendarAppointment>
+					</appointments>
+					<intervalHeaders>
+						<unified:CalendarAppointment
+							startDate="{start}"
+							endDate="{end}"
+							icon="{pic}"
+							title="{title}"
+							type="{type}">
+						</unified:CalendarAppointment>
+					</intervalHeaders>
+				</PlanningCalendarRow>
+			</rows>
+		</PlanningCalendar>
+	
+	
+</core:FragmentDefinition>

@@ -1,0 +1,101 @@
+[{
+	"Date": "Date 1",
+	"APJ": "APJ 1",
+	"Additional": "Additional 1",
+	"EMEA": "EMEA 1",
+	"Americas": "Americas 1",
+	"__metadata": {
+		"uri": "CategorySet('Date%201')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 2",
+	"APJ": "APJ 2",
+	"Additional": "Additional 2",
+	"EMEA": "EMEA 2",
+	"Americas": "Americas 2",
+	"__metadata": {
+		"uri": "CategorySet('Date%202')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 3",
+	"APJ": "APJ 3",
+	"Additional": "Additional 3",
+	"EMEA": "EMEA 3",
+	"Americas": "Americas 3",
+	"__metadata": {
+		"uri": "CategorySet('Date%203')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 4",
+	"APJ": "APJ 4",
+	"Additional": "Additional 4",
+	"EMEA": "EMEA 4",
+	"Americas": "Americas 4",
+	"__metadata": {
+		"uri": "CategorySet('Date%204')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 5",
+	"APJ": "APJ 5",
+	"Additional": "Additional 5",
+	"EMEA": "EMEA 5",
+	"Americas": "Americas 5",
+	"__metadata": {
+		"uri": "CategorySet('Date%205')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 6",
+	"APJ": "APJ 6",
+	"Additional": "Additional 6",
+	"EMEA": "EMEA 6",
+	"Americas": "Americas 6",
+	"__metadata": {
+		"uri": "CategorySet('Date%206')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 7",
+	"APJ": "APJ 7",
+	"Additional": "Additional 7",
+	"EMEA": "EMEA 7",
+	"Americas": "Americas 7",
+	"__metadata": {
+		"uri": "CategorySet('Date%207')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 8",
+	"APJ": "APJ 8",
+	"Additional": "Additional 8",
+	"EMEA": "EMEA 8",
+	"Americas": "Americas 8",
+	"__metadata": {
+		"uri": "CategorySet('Date%208')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 9",
+	"APJ": "APJ 9",
+	"Additional": "Additional 9",
+	"EMEA": "EMEA 9",
+	"Americas": "Americas 9",
+	"__metadata": {
+		"uri": "CategorySet('Date%209')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}, {
+	"Date": "Date 10",
+	"APJ": "APJ 10",
+	"Additional": "Additional 10",
+	"EMEA": "EMEA 10",
+	"Americas": "Americas 10",
+	"__metadata": {
+		"uri": "CategorySet('Date%2010')",
+		"type": "com.sap.GL.zrha.Category"
+	}
+}]
