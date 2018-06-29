@@ -73,13 +73,13 @@ sap.ui.define([
 			},
 		getData: function(){
 			var pic = pic;
-			var date1 = new Date('2018','05','27','01','0');
-			var date2 = new Date('2018','05','27','09','0');
+			var date1 = new Date('2018','05','25','01','0');
+			var date2 = new Date('2018','05','25','09','0');
 			var date3 = new Date('2018','05','25','13','0');
 			var date4 = new Date('2018','05','25','17','0');
 			var date5 = new Date('2018','05','25','21','0');
 			var data = {
-				startDate: new Date(),
+				startDate: new Date('2018','05','25','01','0'),
 				Category: [{
 					name: "CRM",
 					role: "",
